@@ -57,73 +57,64 @@
 				</div>
 			</div>
 		</nav>
-		<div class="center">
-			<div class="col-md-6 col-md-offset-3 center" id="form_container">
-				<h2>Contact Me</h2>
-				<p>
-					Please send your message below. I will get back to you at the
-					earliest!
-				</p>
-				<form role="form" method="post" id="reused_form">
-					<div class="row">
-						<div class="col-sm-12 form-group">
-							<label for="message"> Message:</label>
-							<textarea
-								class="form-control"
-								type="textarea"
-								name="message"
-								id="message"
-								maxlength="6000"
-								rows="7"
-								style="background: #c4c6e7"
-							></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 form-group">
-							<label for="name"> Your Name:</label>
-							<input
-								type="text"
-								class="form-control"
-								id="name"
-								name="name"
-								style="background: #c4c6e7"
-								required
-							/>
-						</div>
-						<div class="col-sm-6 form-group">
-							<label for="email"> Email:</label>
-							<input
-								type="email"
-								class="form-control"
-								id="email"
-								name="email"
-								style="background: #c4c6e7"
-								required
-							/>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-sm-12 form-group">
-							<button type="submit" class="btn btn-lg btn-default pull-right">
-								Send →
-							</button>
-						</div>
-					</div>
-				</form>
-				<div
-					id="success_message"
-					style="width: 100%; height: 100%; display: none"
-				>
-					<h3>Posted your message successfully!</h3>
+		<h1 style="text-align: center">Example Projects</h1>
+		<div class="container" style="width: 100%">
+			<div class="card" style="width: fit-content; background: #c4c6e7">
+				<img
+					class="card-img-top"
+					src="./assets/images/weather-dashboard.jpg"
+					alt="Card image cap"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Weather Dashboard</h5>
+					<p class="card-text">
+						This project uses the OpenWeather API to display weather conditions
+						for a user searched city. While the css may not be the prettiest, it
+						is fully functional.
+					</p>
+					<h6>
+						Github Repository:
+						<li>
+							<a href="https://github.com/nickkeller316/Homework6.git"
+								>Github</a
+							>
+						</li>
+					</h6>
+					<a
+						href="https://nickkeller316.github.io/Homework6/"
+						class="btn btn-primary"
+						>View App</a
+					>
 				</div>
-				<div
-					id="error_message"
-					style="width: 100%; height: 100%; display: none"
-				>
-					<h3>Error</h3>
-					Sorry there was an error sending your form.
+			</div>
+			<div
+				class="card"
+				style="width: fit-content; float: right; background: #c4c6e7"
+			>
+				<img
+					class="card-img-top"
+					src="./assets/images/workday-scheduler.jpg"
+					alt="Card image cap"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Daily Scheduler</h5>
+					<p class="card-text">
+						This is a daily scheduling app. Click the 'View App' button below to
+						see how it works!
+					</p>
+					<h6>
+						Github Repository:
+						<li>
+							<a href="https://github.com/nickkeller316/Homework5.git"
+								>Github</a
+							>
+						</li>
+					</h6>
+					<a
+						href="https://nickkeller316.github.io/Homework5/"
+						class="btn btn-primary"
+						>View App</a
+					>
 				</div>
 			</div>
 		</div>
